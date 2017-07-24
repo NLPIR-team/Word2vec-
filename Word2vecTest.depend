@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1500822197 source:/home/Application/Cworkspace/Word2vecTest/main.cpp
+	<iostream>
+	<word2vec.hpp>
+
+1500820529 /home/Application/Cworkspace/Word2vecTest//word2vec.hpp
+	<stdio.h>
+	<iostream>
+	<string.h>
+
