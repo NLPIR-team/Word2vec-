@@ -23,7 +23,9 @@ const char * CalculateWord(const char * word,int N);
 #Demo
   *初始化
     int state=InitWord2vec("Data","");
+    
     cout << state<< endl;
+    
   *初始化参数
     InitPara(200,"corpus.txt", "words-all.txt", 1, 0.025, "vectors.txt", 8, 1e-4, 1, 25, 1, 15, 1);
   *训练
