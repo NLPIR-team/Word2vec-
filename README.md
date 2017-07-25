@@ -21,15 +21,15 @@ int LoadModel(const char * model);
 const char * CalculateWord(const char * word,int N);
 
 #Demo
-  >>初始化
+  *初始化
     int state=InitWord2vec("Data","");
     cout << state<< endl;
-  >>初始化参数
+  *初始化参数
     InitPara(200,"corpus.txt", "words-all.txt", 1, 0.025, "vectors.txt", 8, 1e-4, 1, 25, 1, 15, 1);
-  >>训练
+  *训练
     Train();
-  >>加载模型
+  *加载模型
     LoadModel("vectors.txt");
-  >>计算词向量
+  *计算词向量
     const char * result= CalculateWord("中国",10);
     std::cout<<result<<std::endl;
